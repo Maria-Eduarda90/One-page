@@ -5,6 +5,10 @@
     font-family: 'Lexend', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style-type: none;
 }
@@ -24,6 +28,11 @@ a {
     left: 0;
     z-index: 100;
     background-color: #141414;
+}
+
+.scroll {
+    transition: .5s;
+    background-color: #272727;
 }
 
 nav {
