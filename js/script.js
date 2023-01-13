@@ -25,3 +25,13 @@ window.addEventListener('scroll', () => {
         header.classList.remove('scroll')
     }
 })
+
+const swiper = new Swiper(".swiper", {
+  slidesPerView: 4,
+  direction: "horizontal",
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
