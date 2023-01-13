@@ -1,0 +1,19 @@
+#game h1{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+#game .container{
+    margin: 1rem;
+}
+
+.swiper-wrapper {
+    gap: 1rem;
+}
+
+.swiper-slide img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
