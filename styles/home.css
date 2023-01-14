@@ -71,10 +71,6 @@ main #home::after {
         margin-top: 0;
     }
 
-    main #home::after {
-        height: 91%;
-    }
-
     .about h1 {
         font-size: 1.5rem;
     }
