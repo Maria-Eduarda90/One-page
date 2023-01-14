@@ -41,3 +41,21 @@ const swiper = new Swiper(".swiper", {
     }
   }
 });
+
+const scrollReveal = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 700,
+    reset: true,
+})
+
+scrollReveal.reveal(
+  `#home h1, #home p, #home ,
+   #game h1, #game .swiper-wrapper,
+    #history h1, #history p, #history img,
+    #comments .wrapper_comments,
+    footer h1, footer p, footer img`,
+  {
+    interval: 100,
+  }
+);
