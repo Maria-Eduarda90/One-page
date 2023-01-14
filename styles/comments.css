@@ -53,3 +53,9 @@
         width: 70%;
     }
 }
+
+@media(max-width: 400px) {
+    .wrapper_comments {
+        width: 58%;
+    }
+}

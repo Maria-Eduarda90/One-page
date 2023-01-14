@@ -27,3 +27,10 @@
         height: 14rem;
     }
 }
+
+@media(max-width: 400px) {
+    .swiper-slide img {
+        width: 11rem;
+        height: 11rem;
+    }
+}
