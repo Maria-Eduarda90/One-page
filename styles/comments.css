@@ -6,11 +6,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     row-gap: 1.5rem;
-    
+    gap: 1rem;
 }
 
 .wrapper_comments {
-    width: 40rem;
     box-shadow: 0 0 5px rgb(20, 20, 20);
     padding: 1rem;
 }
