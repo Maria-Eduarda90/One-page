@@ -1,0 +1,40 @@
+footer {
+    background-color: #272727;
+    margin-top: 2rem;
+}
+
+.footer {
+    padding: 4rem 2rem;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand h1 {
+    color: #fff;
+}
+
+.brand p {
+    color: #5b5b5b;
+    margin-top: 0.5rem;
+}
+
+.brand h1 span {
+    color: #dc0707;
+}
+
+.social img + img {
+    margin-left: 0.5rem;
+}
+
+.social img {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.social img:hover {
+    transform: translateY(-8px);
+}
