@@ -29,8 +29,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
 }
 
 nav ul li {
@@ -43,14 +43,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #c58c05;
+    color: #b10404;
 }
 
 nav ul li a:after {
     content: '';
     width: 0%;
     height: 2px;
-    background: #c58c05;
+    background: #b10404;
 
     position: absolute;
     left: 0;
@@ -126,9 +126,18 @@ nav.show .title {
 }
 
 
-/* @media(min-width: 800px){
+@media(min-width: 800px){
+    
     nav .menu {
         opacity: 1;
         visibility: visible;
     }
-} */
+    nav .menu ul {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .toggle {
+        display: none;
+    }
+}

@@ -27,11 +27,17 @@ window.addEventListener('scroll', () => {
 })
 
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 4,
+  slidesPerView: 2,
   direction: "horizontal",
   loop: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    767: {
+        slidesPerView: 4,
+        setWrapperSize: true,
+    }
+  }
 });

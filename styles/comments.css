@@ -47,3 +47,9 @@
     align-items: center;
     gap: 0.2rem;
 }
+
+@media(max-width: 800px) {
+    .wrapper_comments {
+        width: 70%;
+    }
+}

@@ -38,3 +38,14 @@ footer {
 .social img:hover {
     transform: translateY(-8px);
 }
+
+@media(max-width: 800px) {
+    .footer .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .social img {
+        margin-top: 1rem;
+    }
+}
