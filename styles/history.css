@@ -17,6 +17,10 @@
     color: #5b5b5b;
 }
 
+.description p a {
+    color: #5b5b5b;
+}
+
 .description img {
     filter: drop-shadow(5px 5px 5px #8103af);
 }
