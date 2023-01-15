@@ -50,7 +50,7 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(
-  `#home h1, #home p, #home ,
+  `#home h1, #home p, #home a,
    #game h1, #game .swiper-wrapper,
     #history h1, #history p, #history img,
     #comments .wrapper_comments,
