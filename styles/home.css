@@ -69,6 +69,7 @@ main #home::after {
 @media(max-width: 800px){
     main #home {
         margin-top: 0;
+        height: 100vh;
     }
 
     .about h1 {
