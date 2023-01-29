@@ -10,10 +10,11 @@
 #history .description {
     display: flex;
     align-items: center;
+    gap: 2rem;
+    margin-top: 2.5rem;
 }
 
 .description p {
-    text-align: center;
     color: #5b5b5b;
 }
 
@@ -22,7 +23,9 @@
 }
 
 .description img {
+    width: 30rem;
     filter: drop-shadow(5px 5px 5px #8103af);
+    border-radius: 8px;
 }
 
 @media(max-width: 800px) {
